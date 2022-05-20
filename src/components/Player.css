@@ -1,0 +1,62 @@
+.player {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  opacity: 0.7;
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.PLAYER1 {
+  left: 0;
+}
+
+.PLAYER2 {
+  right: 0;
+}
+
+.active {
+  background-color: #ececfc;
+  opacity: 1;
+}
+
+.active-dot {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.player h1 {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.global-score {
+  font-size: 60px;
+  color: red;
+}
+
+.current-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  font-size: 40px;
+}
+
+.current-score span {
+  font-size: 14px;
+  display: block;
+}
